@@ -35,7 +35,7 @@ IfWinExist, Battle.net
   ; Click PLAY button
   WinGetPos, X, Y, Width, Height, Battle.net
   PlayX := 300
-  PlayY := Height - 70
+  PlayY := Height - 140
   MouseClick, Left, %PlayX%, %PlayY%
 }
 else
